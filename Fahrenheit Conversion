@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+/*we're doing a conversion table of Celcius and Fahrenheit */
+printf("Conversion Table\n");
+printf("CEL\t\tFAHR\n");
+float lower, Upper, Step,celcius;
+lower=0, Upper=300, Step=20;
+while(lower<Upper){
+    celcius= (5.0/9.0)*(lower-32.0);
+    printf("%3.0f %8.1f\n", lower,celcius); /*value of lower should be 3 digit wide and 0 decimal places, celcius values should be placed at 8 digit wide and 1 decimal place*/
+    lower=lower+Step;
+    
+}
+
+
+}
